@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-2">&nbsp;</div>
+  <div class="col-md-8">
+    <div id="tasksPanel" class="panel panel-default">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <ul class="nav flex-column">
+              <li class="nav-item"><a routerLink="/">Home</a></li>
+              <li class="nav-item"><a routerLink="/linearAlg">Linear algebra</a></li>
+              <li class="nav-item"><a routerLink="/compMethods">Categories</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul class="nav flex-column nax-pills">
+              <router-outlet></router-outlet>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="panel-body"></div>
+    </div>
+  </div>
+  <div class="col-md-2">&nbsp;</div>
+</div>
